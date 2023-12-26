@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" Codebehind="WebService.cs" Class="Altoro.Services" %>

@@ -1,0 +1,51 @@
+<%@ Master Language="C#" MasterPageFile="~/template.master" AutoEventWireup="true" CodeFile="default.master.cs" Inherits="DefaultMaster" %>
+
+<asp:content ID="mph" contentplaceholderid="Content" runat="server">
+
+<table cellspacing="0" width="100%">
+  <tr>
+    <td width="25%" class="bt br bb"><div id="Header1"><asp:Image ID="Image1" ImageUrl="~/images/pf_lock.gif" Width=12 Height=14 ImageAlign=AbsBottom AlternateText="Secure Login" runat="server" /> &nbsp; <asp:HyperLink ID="AccountLink" CssClass="focus" runat="server" /></div></td>
+    <td width="25%" class="cc bt br bb"><div id="Header2"><asp:HyperLink ID="LinkHeader2" CssClass="focus" runat="server" Text="PERSONAL" NavigateUrl="~/default.aspx?content=personal.htm" /></div></td>
+    <td width="25%" class="cc bt br bb"><div id="Header3"><asp:HyperLink ID="LinkHeader3" CssClass="focus" runat="server" Text="SMALL BUSINESS" NavigateUrl="~/default.aspx?content=business.htm" /></div></td>
+    <td width="25%" class="cc bt bb"><div id="Header4"><asp:HyperLink ID="LinkHeader4" CssClass="focus" runat="server" Text="INSIDE ALTORO MUTUAL" NavigateUrl="~/default.aspx?content=inside.htm" /></div></td>
+  </tr>
+  <tr>
+    <td valign="top" class="cc br bb">
+        <br style="line-height: 10px;"/>
+        <asp:HyperLink ID="CatLink1" runat="server" CssClass="subheader" NavigateUrl="~/default.aspx?content=personal.htm">PERSONAL</asp:HyperLink>
+        <ul class="sidebar">
+            <li><asp:HyperLink ID="MenuHyperLink1" runat="server" NavigateUrl="~/default.aspx?content=personal_deposit.htm">Deposit Product</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink2" runat="server" NavigateUrl="~/default.aspx?content=personal_checking.htm">Checking</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink3" runat="server" NavigateUrl="~/default.aspx?content=personal_loans.htm">Loan Products</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink4" runat="server" NavigateUrl="~/default.aspx?content=personal_cards.htm">Cards</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink5" runat="server" NavigateUrl="~/default.aspx?content=personal_investments.htm">Investments &amp; Insurance</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink6" runat="server" NavigateUrl="~/default.aspx?content=personal_other.htm">Other Services</asp:HyperLink></li>
+        </ul>
+
+        <asp:HyperLink ID="CatLink2" runat="server" CssClass="subheader" NavigateUrl="~/default.aspx?content=business.htm">SMALL BUSINESS</asp:HyperLink>
+        <ul class="sidebar">
+            <li><asp:HyperLink ID="MenuHyperLink7" runat="server" NavigateUrl="~/default.aspx?content=business_deposit.htm">Deposit Products</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink8" runat="server" NavigateUrl="~/default.aspx?content=business_lending.htm">Lending Services</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink9" runat="server" NavigateUrl="~/default.aspx?content=business_cards.htm">Cards</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink10" runat="server" NavigateUrl="~/default.aspx?content=business_insurance.htm">Insurance</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink11" runat="server" NavigateUrl="~/default.aspx?content=business_retirement.htm">Retirement</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink12" runat="server" NavigateUrl="~/default.aspx?content=business_other.htm">Other Services</asp:HyperLink></li>
+        </ul>
+
+        <asp:HyperLink ID="CatLink3" runat="server" CssClass="subheader" NavigateUrl="~/default.aspx?content=inside.htm">INSIDE ALTORO MUTUAL</asp:HyperLink>
+        <ul class="sidebar">
+            <li><asp:HyperLink ID="MenuHyperLink13" runat="server" NavigateUrl="~/default.aspx?content=inside_about.htm">About Us</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink14" runat="server" NavigateUrl="~/default.aspx?content=inside_contact.htm">Contact Us</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink15" runat="server" NavigateUrl="~/cgi.exe">Locations</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink16" runat="server" NavigateUrl="~/default.aspx?content=inside_investor.htm">Investor Relations</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink17" runat="server" NavigateUrl="~/default.aspx?content=inside_press.htm">Press Room</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MenuHyperLink18" runat="server" NavigateUrl="~/default.aspx?content=inside_careers.htm">Careers</asp:HyperLink></li>
+        </ul>
+    </td>
+    <td valign="top" colspan="3" class="bb">
+<asp:contentplaceholder id="Main" runat="server" />
+    </td>
+  </tr>
+</table>
+
+</asp:content>

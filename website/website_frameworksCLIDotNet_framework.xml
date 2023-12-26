@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameworkInput type="DotNet" xmlns="http://www.ibm.com/FrameworkInput">
+	<WaflFile>C:\CodeExamples\Altoro Mutual\website\website_frameworksCLIDotNet.wafl</WaflFile>
+	<LogConfig>C:\CodeExamples\Altoro Mutual\website\website_frameworksCLIDotNet_waflLogConfig.xml</LogConfig>
+	<HandlerJarDir>C:\Program Files (x86)\IBM\AppScanSource\waflgens</HandlerJarDir>
+	<ProjectFile>C:\CodeExamples\Altoro Mutual\website</ProjectFile>
+	<DotNetInfo>
+		<WalaScopeFile>C:\ProgramData\IBM\AppScanSource\temp\website.scope</WalaScopeFile>
+		<Options>
+			<Property name="aspnet.precompile.dir" value="C:\ProgramData\IBM\AppScanSource\ASPNET_precompile\website"></Property>
+			<Property name="application.file" value="C:\CodeExamples\Altoro Mutual\Altoro Mutual.sln"></Property>
+			<Property name="project.configuration" value="Debug|Any CPU"></Property>
+		</Options>
+	</DotNetInfo>
+</FrameworkInput>

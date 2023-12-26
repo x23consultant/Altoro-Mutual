@@ -1,0 +1,697 @@
+<wafl xmlns="http://www.ibm.com/WAFLSchema">
+  <global-bean-decls>
+  </global-bean-decls>
+  <synthetic-methods>
+  </synthetic-methods>
+  <entrypoints>
+    <entrypoint sig="ASP.bank_account_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/account.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_account_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/account.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_account_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/account.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_admin_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/admin/admin.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_admin_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/admin/admin.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_admin_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/admin/admin.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_admin_master.FrameworkInitialize():System.Void">
+      <url>/Web/bank/admin/admin.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_admin_master.get_Template_Main():System.Web.UI.ITemplate">
+      <url>/Web/bank/admin/admin.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_admin_master.set_Template_Main(System.Web.UI.ITemplate):System.Void">
+      <url>/Web/bank/admin/admin.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_application_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/admin/application.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_application_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/admin/application.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_application_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/admin/application.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_captcha_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/admin/captcha.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_captcha_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/admin/captcha.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_captcha_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/admin/captcha.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_captcha_aspx.get_SupportAutoEvents():System.Boolean">
+      <url>/Web/bank/admin/captcha.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_login_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/admin/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_login_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/admin/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_login_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/admin/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_admin_login_aspx.get_SupportAutoEvents():System.Boolean">
+      <url>/Web/bank/admin/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_apply_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/apply.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_apply_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/apply.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_apply_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/apply.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_bank_master.FrameworkInitialize():System.Void">
+      <url>/Web/bank/bank.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_bank_master.get_Template_Main():System.Web.UI.ITemplate">
+      <url>/Web/bank/bank.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_bank_master.set_Template_Main(System.Web.UI.ITemplate):System.Void">
+      <url>/Web/bank/bank.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_customize_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/customize.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_customize_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/customize.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_customize_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/customize.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_login_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_login_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_login_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_logout_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/logout.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_logout_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/logout.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_logout_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/logout.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_main_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/main.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_main_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/main.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_main_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/main.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_queryxpath_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/queryxpath.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_queryxpath_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/queryxpath.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_queryxpath_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/queryxpath.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_servererror_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_servererror_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_servererror_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_transaction_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/transaction.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_transaction_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/transaction.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_transaction_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/transaction.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_transfer_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bank/transfer.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_transfer_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bank/transfer.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bank_transfer_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bank/transfer.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bug_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/bug.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bug_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/bug.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bug_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/bug.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.bug_aspx.get_SupportAutoEvents():System.Boolean">
+      <url>/Web/bug.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.comment_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/comment.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.comment_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/comment.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.comment_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/comment.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default2_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/Default2.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default2_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/Default2.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default2_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/Default2.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default3_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/Default3.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default3_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/Default3.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default3_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/Default3.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/default.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/default.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/default.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_master.FrameworkInitialize():System.Void">
+      <url>/Web/default.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_master.get_Template_Main():System.Web.UI.ITemplate">
+      <url>/Web/default.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_master.set_Template_Main(System.Web.UI.ITemplate):System.Void">
+      <url>/Web/default.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.feedback_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/feedback.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.feedback_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/feedback.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.feedback_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/feedback.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.global_asax.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/global.asax</url>
+    </entrypoint>
+    <entrypoint sig="ASP.malware_eicar_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/malware/Eicar.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.malware_eicar_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/malware/Eicar.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.malware_eicar_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/malware/Eicar.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.malware_eicar_aspx.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/malware/Eicar.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.malware_eicar_aspx.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/malware/Eicar.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.malware_eicar_aspx.get_SupportAutoEvents():System.Boolean">
+      <url>/Web/malware/Eicar.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.notfound_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/notfound.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.notfound_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/notfound.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.notfound_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/notfound.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.search_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/search.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.search_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/search.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.search_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/search.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.servererror_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.servererror_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.servererror_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.subscribe_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/subscribe.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.subscribe_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/subscribe.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.subscribe_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/subscribe.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.survey_complete_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/survey_complete.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.survey_complete_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/survey_complete.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.survey_complete_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/survey_complete.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.survey_questions_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/survey_questions.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.survey_questions_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/survey_questions.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.survey_questions_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/survey_questions.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.template_master.FrameworkInitialize():System.Void">
+      <url>/Web/template.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.template_master.get_Template_Content():System.Web.UI.ITemplate">
+      <url>/Web/template.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.template_master.set_Template_Content(System.Web.UI.ITemplate):System.Void">
+      <url>/Web/template.master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.test_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/test.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.test_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/test.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.test_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/test.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.test_aspx.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/test.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.test_aspx.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/test.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.test_aspx.get_SupportAutoEvents():System.Boolean">
+      <url>/Web/test.aspx</url>
+    </entrypoint>
+    <entrypoint sig="AdminMaster.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/admin/admin.master</url>
+    </entrypoint>
+    <entrypoint sig="AdminMaster.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/admin/admin.master</url>
+    </entrypoint>
+    <entrypoint sig="AdminMaster.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/admin/admin.master</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Account.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/account.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Account.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/account.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Account.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/account.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Account.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/account.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Admin.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/admin/admin.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Admin.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/admin/admin.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Admin.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/admin/admin.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Admin.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/admin/admin.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Application.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/admin/application.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Application.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/admin/application.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Application.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/admin/application.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Application.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/admin/application.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Apply.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/apply.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Apply.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/apply.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Apply.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/apply.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Apply.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/apply.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Authentication.GetUserName():System.String">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Authentication.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Authentication.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Authentication.ValidateUser(System.String;System.String):System.String">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Authentication.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Authentication.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Contact.OnInit(System.EventArgs):System.Void">
+      <url>/Web/feedback.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Contact.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/feedback.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Contact.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/feedback.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Contact.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/feedback.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Customize.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/customize.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Customize.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/customize.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Customize.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/customize.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Customize.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/customize.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Default.GetSessionValue(System.String):System.String">
+      <url>/Web/bank/main.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Default.OnInit(System.EventArgs):System.Void">
+      <url>/Web/default.aspx</url>
+      <url>/Web/bank/main.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Default.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/default.aspx</url>
+      <url>/Web/bank/main.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Default.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/default.aspx</url>
+      <url>/Web/bank/main.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Default.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/default.aspx</url>
+      <url>/Web/bank/main.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.LogOut.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/logout.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.LogOut.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/logout.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.LogOut.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/logout.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.LogOut.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/logout.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.NotFound.OnInit(System.EventArgs):System.Void">
+      <url>/Web/notfound.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.NotFound.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/notfound.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.NotFound.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/notfound.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.NotFound.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/notfound.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.QueryXPath.Button1_Click(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/queryxpath.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.QueryXPath.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/queryxpath.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.QueryXPath.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/queryxpath.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.QueryXPath.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/queryxpath.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.QueryXPath.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/queryxpath.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.RecentTransactions.DataGrid_PageChanger(System.Object;System.Web.UI.WebControls.DataGridPageChangedEventArgs):System.Void">
+      <url>/Web/bank/transaction.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.RecentTransactions.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/transaction.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.RecentTransactions.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/transaction.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.RecentTransactions.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/transaction.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.RecentTransactions.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/transaction.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Search.OnInit(System.EventArgs):System.Void">
+      <url>/Web/search.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Search.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/search.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Search.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/search.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Search.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/search.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.ServerError.OnInit(System.EventArgs):System.Void">
+      <url>/Web/servererror.aspx</url>
+      <url>/Web/bank/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.ServerError.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/servererror.aspx</url>
+      <url>/Web/bank/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.ServerError.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/servererror.aspx</url>
+      <url>/Web/bank/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.ServerError.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/servererror.aspx</url>
+      <url>/Web/bank/servererror.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Services.GetUserAccounts(System.Int32):Altoro.AccountData[]">
+      <url>/Web/transfer/transfer.asmx</url>
+      <url>/Web/bank/ws.asmx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Services.IsValidUser(System.String):System.Boolean">
+      <url>/Web/transfer/transfer.asmx</url>
+      <url>/Web/bank/ws.asmx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Services.TransferBalance(Altoro.Services+MoneyTransfer):Altoro.Transaction">
+      <url>/Web/transfer/transfer.asmx</url>
+      <url>/Web/bank/ws.asmx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Subscribe.GetEmail():System.String">
+      <url>/Web/subscribe.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Subscribe.OnInit(System.EventArgs):System.Void">
+      <url>/Web/subscribe.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Subscribe.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/subscribe.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Subscribe.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/subscribe.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Subscribe.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/subscribe.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Survey_Complete.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/survey_complete.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Survey_Complete.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/survey_complete.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Survey_Complete.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/survey_complete.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Survey_Questions.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/survey_questions.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Survey_Questions.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/survey_questions.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Survey_Questions.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/survey_questions.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Transfer.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/transfer.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Transfer.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/transfer.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Transfer.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/transfer.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.Transfer.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/transfer.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.comment.OnInit(System.EventArgs):System.Void">
+      <url>/Web/comment.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.comment.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/comment.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.comment.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/comment.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Altoro.comment.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/comment.aspx</url>
+    </entrypoint>
+    <entrypoint sig="BankMaster.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/bank/bank.master</url>
+    </entrypoint>
+    <entrypoint sig="BankMaster.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/bank.master</url>
+    </entrypoint>
+    <entrypoint sig="BankMaster.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/bank.master</url>
+    </entrypoint>
+    <entrypoint sig="CaptchaImage.JpegImage.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bug.aspx</url>
+      <url>/Web/bank/admin/captcha.aspx</url>
+    </entrypoint>
+    <entrypoint sig="CaptchaImage.JpegImage.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bug.aspx</url>
+      <url>/Web/bank/admin/captcha.aspx</url>
+    </entrypoint>
+    <entrypoint sig="CaptchaImage.JpegImage.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bug.aspx</url>
+      <url>/Web/bank/admin/captcha.aspx</url>
+    </entrypoint>
+    <entrypoint sig="CaptchaImage._Default.OnInit(System.EventArgs):System.Void">
+      <url>/Web/bank/admin/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="CaptchaImage._Default.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/bank/admin/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="CaptchaImage._Default.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/bank/admin/login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Default2.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Default2.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Default2.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/Default2.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Default2.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/Default2.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Default3.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Default3.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Default3.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/Default3.aspx</url>
+    </entrypoint>
+    <entrypoint sig="Default3.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/Default3.aspx</url>
+    </entrypoint>
+    <entrypoint sig="DefaultMaster.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/default.master</url>
+    </entrypoint>
+    <entrypoint sig="DefaultMaster.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/default.master</url>
+    </entrypoint>
+    <entrypoint sig="DefaultMaster.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/default.master</url>
+    </entrypoint>
+    <entrypoint sig="TemplateMaster.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/template.master</url>
+    </entrypoint>
+    <entrypoint sig="TemplateMaster.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/template.master</url>
+    </entrypoint>
+    <entrypoint sig="TemplateMaster.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/template.master</url>
+    </entrypoint>
+  </entrypoints>
+  <call-replacements>
+    <replace-call>
+      <call-site-info caller="ASP.bank_customize_aspx.__BuildControlHyperLink1():System.Web.UI.WebControls.HyperLink" call-sig="System.Web.UI.WebControls.HyperLink.set_NavigateUrl(System.String):System.Void" bytecodeIndex="40" srcLineNum="20"/>
+      <replacement>
+        <call signature="System.Web.UI.WebControls.HyperLink.set_NavigateUrl(System.String):System.Void">
+          <actual-parameter pos="0">
+            <arg-to-orig-call pos="0"/>
+          </actual-parameter>
+          <actual-parameter pos="1">
+            <call signature="System.Web.HttpUtility.HtmlEncode(System.String):System.String">
+              <actual-parameter pos="0">
+                <arg-to-orig-call pos="1"/>
+              </actual-parameter>
+            </call>
+          </actual-parameter>
+        </call>
+      </replacement>
+    </replace-call>
+    <replace-call>
+      <call-site-info caller="ASP.bank_customize_aspx.__BuildControlHyperLink2():System.Web.UI.WebControls.HyperLink" call-sig="System.Web.UI.WebControls.HyperLink.set_NavigateUrl(System.String):System.Void" bytecodeIndex="40" srcLineNum="21"/>
+      <replacement>
+        <call signature="System.Web.UI.WebControls.HyperLink.set_NavigateUrl(System.String):System.Void">
+          <actual-parameter pos="0">
+            <arg-to-orig-call pos="0"/>
+          </actual-parameter>
+          <actual-parameter pos="1">
+            <call signature="System.Web.HttpUtility.HtmlEncode(System.String):System.String">
+              <actual-parameter pos="0">
+                <arg-to-orig-call pos="1"/>
+              </actual-parameter>
+            </call>
+          </actual-parameter>
+        </call>
+      </replacement>
+    </replace-call>
+  </call-replacements>
+</wafl>

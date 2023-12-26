@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="c:\tmp\tmpFDCA.tmp.cadir\bin\App_Code.dll">
+   <Modules>
+    <Module Name="app_code.dll">
+     <Namespaces>
+      <Namespace Name="Altoro">
+       <Types>
+        <Type Name="LineItemTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetLineItems()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\App_Code" File="LineItemTable.cs" Line="89">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'LineItemTable.GetLineItems()' could contain the following variables 'this.myAccount'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Services" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IsValidUser(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\App_Code" File="WebService.cs" Line="74">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'Services.IsValidUser(string)' could contain the following variables 'UserId'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TransferBalance(Altoro.Services+MoneyTransfer)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\App_Code" File="WebService.cs" Line="154">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'Services.TransferBalance(Services.MoneyTransfer)' could contain the following variables 'transDetails.creditAccount'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\App_Code" File="WebService.cs" Line="170">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'Services.TransferBalance(Services.MoneyTransfer)' could contain the following variables 'transDetails.creditAccount', 'DateTime.Now.ToShortDateString()', 'transDetails.transferAmount'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\App_Code" File="WebService.cs" Line="145">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'Services.TransferBalance(Services.MoneyTransfer)' could contain the following variables 'transDetails.debitAccount'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\App_Code" File="WebService.cs" Line="168">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'Services.TransferBalance(Services.MoneyTransfer)' could contain the following variables 'transDetails.debitAccount', 'DateTime.Now.ToShortDateString()', 'transDetails.transferAmount'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="c:\tmp\tmpFDCA.tmp.cadir\bin\App_Web_2flaqqpr.dll">
+   <Modules>
+    <Module Name="app_web_2flaqqpr.dll">
+     <Namespaces>
+      <Namespace Name="Altoro">
+       <Types>
+        <Type Name="Account" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetAccounts(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="account.aspx.cs" Line="89">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'Account.GetAccounts(string)' could contain the following variables 'userId'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetBalance(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="account.aspx.cs" Line="125">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'Account.GetBalance(string)' could contain the following variables 'accountNumber'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Customize" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="customize.aspx.cs" Line="61">'Customize.InitializeComponent()' calls into 'FileSystemWatcher.EnableRaisingEvents.set(bool)' which has a LinkDemand. By making this call, 'FileSystemWatcher.EnableRaisingEvents.set(bool)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Customize.InitializeComponent()'&#xD;&#xA;   -&gt;'Customize.InitializeComponent()'&#xD;&#xA;   -&gt;'Customize.OnInit(EventArgs)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Default" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetAccounts(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="main.aspx.cs" Line="51">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'Default.GetAccounts(string)' could contain the following variables 'userId'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RecentTransactions" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BindGrid()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="transaction.aspx.cs" Line="68">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'RecentTransactions.BindGrid()' could contain the following variables 'Regex.Replace(sSQL, sDateRegEx, "\'$4-$3-$2\'")', 'Regex.Replace(sSQL, "--.*", "")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Transfer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetAccounts(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="transfer.aspx.cs" Line="73">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'Transfer.GetAccounts(string)' could contain the following variables 'userId'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="c:\tmp\tmpFDCA.tmp.cadir\bin\App_Web_luw4m5tp.dll">
+   <Modules>
+    <Module Name="app_web_luw4m5tp.dll">
+     <Namespaces>
+      <Namespace Name="Altoro">
+       <Types>
+        <Type Name="Authentication" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ValidateUser(System.String,System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="login.aspx.cs" Line="140">Object 'myConnection' can be disposed more than once in method 'Authentication.ValidateUser(string, string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 140</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="login.aspx.cs" Line="67">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'Authentication.ValidateUser(string, string)' could contain the following variables 'Regex.Replace(query1, "--.*", "")', 'uName', 'pWord'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="login.aspx.cs" Line="72">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'Authentication.ValidateUser(string, string)' could contain the following variables 'Regex.Replace(query2, "--.*", "")', 'uName'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website\bank" File="login.aspx.cs" Line="122">The query string passed to 'OleDbDataAdapter.OleDbDataAdapter(string, OleDbConnection)' in 'Authentication.ValidateUser(string, string)' could contain the following variables 'this.Session["userId"]'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="c:\tmp\tmpFDCA.tmp.cadir\bin\App_Web_yyz4rerq.dll">
+   <Modules>
+    <Module Name="app_web_yyz4rerq.dll">
+     <Namespaces>
+      <Namespace Name="Altoro">
+       <Types>
+        <Type Name="Subscribe" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Page_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-07-26 15:37:10Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\CodeExamples\Altoro Mutual\website" File="subscribe.aspx.cs" Line="47">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'Subscribe.Page_Load(object, EventArgs)' could contain the following variables 'this.Request.Params["txtEmail"]'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Do not dispose objects multiple times</Name>
+   <Description>A correctly implemented Dispose method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.</Description>
+   <Resolution Name="Default">Object {0} can be disposed more than once in method {1}. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 140</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122">
+   <Name>Do not indirectly expose methods with link demands</Name>
+   <Description>Do not wrap a method protected by a LinkDemand with a method that does not perform a security check. A LinkDemand checks the permissions of the immediate caller rather than checking the permissions of all callers in the call stack. In this case, the permissions of the wrapper method will be checked. If the wrapper method does not, itself, check the permissions of callers higher in the call stack, malicious code might be able to execute the wrapped function even though it lacks permission to do so.</Description>
+   <Resolution Name="Default">{0} calls into {1} which has a LinkDemand. By making this call, {1} is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: {2}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182303.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
