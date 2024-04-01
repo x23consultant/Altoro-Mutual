@@ -1,4 +1,4 @@
-name: "HCL AppScan DAST - basic"
+name: "HCL AppScan on Cloud DAST"
 on:
   workflow_dispatch
 jobs:
@@ -16,11 +16,12 @@ jobs:
           application_id: ${{vars.ASOC_APPID}}
           scan_type: 'staging'
           dynamic_scan_type: dast
-          starting_URL: 'https://demo.testfire.net?mode=demo'
+          starting_URL: 'http://appscandemovm/altoromutualvs2019/'
           login_method: userpass
           login_user: jsmith
           login_password: demo1234
-          network: public
+          network: private
+          presence_id: 27db4995-24cd-ee11-9f01-14cb65723612
           fail_for_noncompliance: false
           wait_for_analysis: true
       - uses: actions/upload-artifact@v3
