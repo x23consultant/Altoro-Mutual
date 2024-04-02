@@ -1,0 +1,31 @@
+name: "HCL AppScan on Cloud DAST with file"
+on:
+  workflow_dispatch
+jobs:
+  scan:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: HCL AppScan DAST Analyzer
+        uses: HCL-TECH-SOFTWARE/appscan-dast-action@v1.0.5
+        with:
+          baseurl:  https://cloud.appscan.com
+          asoc_key: ${{secrets.ASOC_KEY}}
+          asoc_secret: ${{secrets.ASOC_SECRET}}
+          application_id: ${{vars.ASOC_APPID}}
+          scan_type: 'staging'
+          dynamic_scan_type: upload
+          scan_or_scant_file: altor_net_for_gh_demo.scan
+          network: private
+          presence_id: 27db4995-24cd-ee11-9f01-14cb65723612
+          fail_by_severity: true
+          failure_threshold: Medium
+          wait_for_analysis: true
+      - uses: actions/upload-artifact@v3
+        name: Upload HCL AppScan HTML Report to Github Artifacts
+        with:
+          name: AppScan Security Scan HTML Report 
+          path: '**/AppScan*.html'
+        if: success() || failure()
+        
