@@ -15,7 +15,8 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: ${{vars.ASOC_APPID}}
           scan_type: 'staging'
-          dynamic_scan_type: dast
+          dynamic_scan_type: upload
+          scan_or_scant_file:  'seq_amvs2019_mx_appscandemovm_242024_9159.dast.config'
           starting_URL: 'http://appscandemovm/altoromutualvs2019/'
           login_method: userpass
           login_user: jsmith
