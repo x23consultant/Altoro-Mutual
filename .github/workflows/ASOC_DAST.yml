@@ -18,9 +18,6 @@ jobs:
           dynamic_scan_type: upload
           scan_or_scant_file:  'altor_net_for_gh_demo.scan'
           starting_URL: 'http://appscandemovm/altoromutualvs2019/'
-          login_method: userpass
-          login_user: jsmith
-          login_password: demo1234
           network: private
           presence_id: 27db4995-24cd-ee11-9f01-14cb65723612
           fail_by_severity: true
